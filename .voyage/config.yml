@@ -3,6 +3,6 @@ services:
     commands:
       - 'npm i'
       - 'node server.js'
-    image: 12.19.0-alpine3.10
+    image: node:12.19.0-alpine3.10
     primary: true
     exposePort: 3000
